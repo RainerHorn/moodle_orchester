@@ -6,7 +6,7 @@ Moodle-Kursstruktur. Kein Serverzugriff vorausgesetzt (gehostetes Moodle).
 
 ## Technische Grundlagen
 - Moodle Version: 4.x (bevorzugt 4.5+)
-- Kein direkter Serverzugriff — nur Moodle-Webinterface und XML/CSV-Import
+- Kein direkter Serverzugriff -- nur Webinterface, XML/CSV-Import
 - H5P ueber Moodle Content Bank
 - Kursformat: Tiles (bevorzugt) oder Wochenformat
 
@@ -21,31 +21,31 @@ Moodle-Kursstruktur. Kein Serverzugriff vorausgesetzt (gehostetes Moodle).
 Je Lernsituation ein Abschnitt:
 - Abschnitt-Name = Lernsituations-Titel
 - Tiles-Bild je Abschnitt (Gamification-Kachel)
-- Abschnitts-Beschreibung = Handlungssituation (Einleitungstext)
+- Abschnitts-Beschreibung = Handlungssituation (Einstiegstext)
 
 ### 3. Aktivitaeten je Lernsituation
 Reihenfolge entspricht vollstaendiger Handlung:
-[Etikette] Handlungssituation (Einstieg, HTML-formatiert)
-[Seite/Datei] Informationsmaterial (Phase 1)
-[Aufgabe] Planungsprotokoll (Phase 2)
-[Forum] Entscheidungsdiskussion (Phase 3)
-[Aufgabe/Workshop] Handlungsergebnis (Phase 4)
-[H5P / Test] Ueberpruefung (Phase 5)
-[Journal / Aufgabe] Reflexion (Phase 6)
-[Badge] Abzeichen bei Abschluss
+
+    [Etikette]  Handlungssituation (Einstieg, HTML-formatiert)
+    [Seite]     Informationsmaterial (Phase 1: Informieren)
+    [Aufgabe]   Planungsprotokoll (Phase 2: Planen)
+    [Forum]     Entscheidungsdiskussion (Phase 3: Entscheiden)
+    [Aufgabe]   Handlungsergebnis (Phase 4: Durchfuehren)
+    [H5P/Test]  Ueberpruefung (Phase 5: Ueberprufen)
+    [Journal]   Reflexion (Phase 6: Reflektieren)
+    [Badge]     Abzeichen bei Abschluss
 
 ### 4. H5P-Inhalte
 - Upload ueber Content Bank
-- Einbindung als Aktivitaet in die jeweilige Phase
+- Einbindung als Aktivitaet in jeweilige Phase
 
 ### 5. Kursabschluss-Tracking
 - Aktivitaetsabschluss je Pflichtaktivitaet aktivieren
 - Kursabschluss-Kriterien: alle Pflichtaktivitaeten abgeschlossen
-- Badges an Kursabschluss oder Abschnitt-Abschluss koppeln
+- Badges an Abschnitt- oder Kursabschluss koppeln
 
 ### 6. XML-Import
-- Moodle-Backup (mbz) oder Fragen-XML fuer Quizfragen importieren
-- Format: Moodle XML (Assessment Engineer liefert fertige Datei)
+- Moodle XML fuer Quizfragen importieren (Assessment Engineer liefert Datei)
 
 ## Optik-Standards
 - Tiles-Kacheln: einheitliches Farbschema, Icons je Lernsituation
@@ -59,6 +59,6 @@ Reihenfolge entspricht vollstaendiger Handlung:
 - Dateiabgaben mit klaren Abgabeformaten?
 
 ## Output
-- Vollstaendige Moodle-Kursstruktur (kann als .mbz exportiert werden)
+- Vollstaendige Moodle-Kursstruktur (exportierbar als .mbz)
 - Konfigurationsdokumentation fuer den Bildungsgang
-- Hinweis auf PIE-BBS-Evaluationsinstrument (UB-BBS-Beoachtungsboegen)
+- Hinweis auf PIE-BBS fuer Unterrichtsevaluation

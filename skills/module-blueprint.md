@@ -1,66 +1,58 @@
 # Skill: Module Blueprint (Lernsituations-Vorlage)
 
 ## Zweck
-Vollstaendige Vorlage fuer eine einzelne Lernsituation nach SchuCu-BBS 2024.
+Vollstaendige Vorlage fuer eine Lernsituation nach SchuCu-BBS 2024.
 
-## Pflichtfelder (SchuCu-BBS 2.1.3)
-Lernsituation [Nr.]: [Titel]
-Curriculare Vorgaben: [Lernfeld/Lerngebiet/Modul, Nr. + Bezeichnung]
-Zeitrichtwert: [x Unterrichtsstunden]
+## Vorlage
 
-Handlungssituation
-[1–3 Absaetze. Beschreibt die berufliche/lebensweltliche Situation.
-Enthaelt eine zentrale Aufgaben-, Frage- oder Problemstellung.
-Benennt den Rahmen (Modellunternehmen, Einrichtung o. ae.).
-Ermoegt verschiedene Loesungswege.]
+    ## Lernsituation [Nr.]: [Titel]
 
-Handlungsergebnis
-[Kurze Beschreibung des erwarteten Ergebnisses — materiell oder immateriell]
+    Curriculare Vorgaben: [Lernfeld/Lerngebiet/Modul, Nr. + Bezeichnung]
+    Zeitrichtwert: [x Unterrichtsstunden]
 
-Handlungskompetenz
-Fachkompetenz
-Wissen:
+    ### Handlungssituation
+    [1-3 Absaetze. Berufliche/lebensweltliche Situation.
+    Zentrale Fragestellung hervorgehoben.
+    Rahmen benannt (Modellunternehmen o.ae.).
+    Verschiedene Loesungswege erkennbar moeglich.]
 
-...
+    ### Handlungsergebnis
+    [Materiell oder immateriell, konkret beschrieben]
 
-Fertigkeiten:
+    ### Handlungskompetenz
 
-...
+    Fachkompetenz Wissen:
+    - ...
+    Fachkompetenz Fertigkeiten:
+    - ...
+    Personale Kompetenz Sozialkompetenz:
+    - ...
+    Personale Kompetenz Selbstaendigkeit:
+    - ...
 
-Personale Kompetenz
-Sozialkompetenz:
+    ### Phasenplan (Vollstaendige Handlung)
 
-...
+    | Phase | Leitfrage | Lehrkraftrolle | Sozialform | Moodle-Aktivitaet | Zeit |
+    |---|---|---|---|---|---|
+    | Informieren/Analysieren | | informierend | | | |
+    | Planen | | impulsgebend | | | |
+    | Entscheiden | | moderierend | | | |
+    | Durchfuehren | | beratend | | | |
+    | Ueberprufen/Kontrollieren | | bewertend | | | |
+    | Reflektieren | | moderierend | | | |
 
-Selbstaendigkeit:
+    ### Vereinbarungen
+    - Distanzunterricht:
+    - Lernortkooperation:
+    - Bewertungsgrundlage:
 
-...
-
-Vollstaendige Handlung – Phasenplan
-Phase	Leitfrage	Aktivitaet	Sozialform	Moodle-Element	Zeitbedarf
-Phase	Leitfrage	Aktivitaet	Sozialform	Moodle-Element	Zeitbedarf
-Informieren/Analysieren	Was soll getan werden?				
-Planen	Wie kann umgesetzt werden?				
-Entscheiden	Welcher Weg wird gewaehlt?				
-Durchfuehren	Umsetzung				
-Ueberprufen/Kontrollieren	Ist das Ergebnis korrekt?				
-Reflektieren	Was kann verbessert werden?				
-Vereinbarungen und Hinweise
-Distanzunterricht:
-
-Lernortkooperation:
-
-Besonderheiten:
-
-Bewertungsgrundlage:
-
-Bildungsgangbeschluss
-Beschlossen am: [Datum]
-Beteiligte Lehrkraefte: [Namen/Kuerzel]
+    ### Bildungsgangbeschluss
+    Beschlossen am: [Datum]
+    Lehrkraefte: [Kuerzel]
 
 ## Qualitaetspruefung vor Freigabe
-- [ ] Handlungssituation hat genau eine zentrale Fragestellung
-- [ ] Verschiedene Loesungswege erkennbar moeglich
+- [ ] Eine zentrale Fragestellung vorhanden
+- [ ] Verschiedene Loesungswege moeglich
 - [ ] Alle 6 Phasen mit Moodle-Aktivitaet belegt
-- [ ] Handlungsergebnis klar benannt
-- [ ] Bewertungskriterien kommunizierbar
+- [ ] Handlungsergebnis benannt
+- [ ] Distanzalternative je Phase vorhanden

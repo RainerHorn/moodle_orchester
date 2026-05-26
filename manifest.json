@@ -1,0 +1,68 @@
+{
+  "name": "Moodle Kurs Builder",
+  "description": "KI-Agentengesellschaft fuer die Erstellung hochwertiger, gamifizierter Moodle-Kurse",
+  "issuePrefix": "MKB",
+  "status": "active",
+  "budgetMonthlyCents": 500000,
+  "requireBoardApprovalForNewAgents": true,
+  "agents": [
+    {
+      "name": "Chief Orchestrator",
+      "role": "ceo",
+      "file": "agents/01-chief-orchestrator.md",
+      "reports": []
+    },
+    {
+      "name": "QA Director",
+      "role": "director",
+      "file": "agents/02-qa-director.md",
+      "reportsTo": "Chief Orchestrator"
+    },
+    {
+      "name": "Curriculum Designer",
+      "role": "specialist",
+      "file": "agents/03-curriculum-designer.md",
+      "reportsTo": "Chief Orchestrator"
+    },
+    {
+      "name": "Didaktik Designer",
+      "role": "specialist",
+      "file": "agents/04-didaktik-designer.md",
+      "reportsTo": "Chief Orchestrator"
+    },
+    {
+      "name": "Gamification Designer",
+      "role": "specialist",
+      "file": "agents/05-gamification-designer.md",
+      "reportsTo": "Chief Orchestrator"
+    },
+    {
+      "name": "Content Producer",
+      "role": "specialist",
+      "file": "agents/06-content-producer.md",
+      "reportsTo": "Chief Orchestrator"
+    },
+    {
+      "name": "Assessment Engineer",
+      "role": "specialist",
+      "file": "agents/07-assessment-engineer.md",
+      "reportsTo": "Chief Orchestrator"
+    },
+    {
+      "name": "Moodle Builder",
+      "role": "specialist",
+      "file": "agents/08-moodle-builder.md",
+      "reportsTo": "Chief Orchestrator"
+    }
+  ],
+  "skills": [
+    "skills/course-planning.md",
+    "skills/module-blueprint.md",
+    "skills/content-production.md",
+    "skills/quiz-generation.md",
+    "skills/gamification-setup.md",
+    "skills/moodle-mapping.md",
+    "skills/qa-review.md",
+    "skills/browser-assist.md"
+  ]
+}
